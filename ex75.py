@@ -30,23 +30,3 @@ for pos in tupla:
 
 
 
-
-
-
-#if 3 == num:
-    #print(f'O valor 3 foi digitado na {tupla[num]} posição')
-#elif 3 == segundo_num:
-#    print(f'O 3 foi digitado na {tupla[segundo_num]} posição')
-#elif 3 == terceiro_num:
-#    print(f'O 3 foi digitado na {tupla[terceiro_num]} posição')
-#elif 3 == quarto_num:
-#    print(f'O 3 foi digitado na {tupla[quarto_num]} posição')
-
-
-
-
-
-
-#tupla = (num + outro_num)
-#tupla_numbers = num + outro_num
-#print(f'Foram sorteados {tupla}')
