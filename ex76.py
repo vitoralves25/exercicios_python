@@ -13,3 +13,5 @@ for pos in range(0,len(listagem)):
 #:<30 - Joga o elemento pra esquerda
 
 #:^30 - Centraliza o Elemento
+
+# Final
