@@ -1,8 +1,6 @@
-lista = ('Boneco', 'Aprender', 'Comprar', 'Atirar', 'Loja', 'Seco', 'Rua', 'Estrada')
-vogais = 'aeiou'
-for pos, letra in enumerate(lista):
-    #if letra in 'a' or 'e' or 'i' or 'o' or 'u':
-    print(f'Na palavra {letra.upper()} temos')
-
-    if 'a' and 'e' in letra:
-        print('a' 'e')
+lista = ('boneco', 'aprender', 'comprar', 'atirar', 'loja', 'seco', 'rua', 'estrada')
+for palavra in lista:
+    print(f'\nNa frase {palavra} temos', end=' ')
+    for letra in palavra:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
