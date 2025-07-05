@@ -11,9 +11,4 @@
 #print('Cheguei ao final da lista')
 
 
-valores = []
-for cont in range(0,5):
-    valores.append(int(input('Digite um Número: ')))
 
-for pos, num in enumerate(valores):
-    print(f'\nO número está na posição {pos + 1} e é o {num}')
