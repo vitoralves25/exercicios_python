@@ -1,5 +1,15 @@
-expresao = str(input('Digite uma expressão: ')).strip()
-for ex in expresao:
-    print(ex)
-for ex :
-    print(ex)
+expressao = str(input('Digite sua expressão: '))
+lista = []
+for simb in expressao:
+    if simb == '(':
+        lista.append('(')
+    elif simb == ')':
+        if len(lista) > 0:
+            lista.pop()
+        else:
+            lista.append(')')
+            break
+if len(lista) == 0:
+    print('Expressão Válida')
+else:
+    print('Expressão Inválida')

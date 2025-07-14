@@ -13,11 +13,6 @@ while True:
         elif numeros % 2 == 1:
             impar.append(numeros)
     
-        
-            
-    
-
-
     resposta = ' '
     while resposta not in 'SN':
         resposta = str(input('Quer continuar? [S/N]: ')).upper().strip()[0]
