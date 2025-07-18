@@ -1,12 +1,12 @@
-teste = []
-teste.append('Vitor')
-teste.append('Alves')
-galera = []
-galera.append(teste[:])
-teste[0] = 'Raynara'
-teste[1] = 'Silva'
-galera.append(teste[:])
-print(galera)
+#teste = []
+#teste.append('Vitor')
+#teste.append('Alves')
+#galera = []
+#galera.append(teste[:])
+#teste[0] = 'Raynara'
+#teste[1] = 'Silva'
+#galera.append(teste[:])
+#print(galera)
 
 # Ou posso fazer a declaração de galera de outra maneira, Colocando colchetes dentro de colchetes, ou seja, lista dentro de lista
 
@@ -39,4 +39,22 @@ print(galera)
 #        totmenor += 1
 
 #print(galera)
+
+
+galera = []
+dado = []
+totmenor = totmaior = 0
+for c in range(0,5):
+    dado.append(str(input('Digite seu Nome: ')))
+    dado.append(int(input('Digite sua idade: ')))
+    galera.append(dado[:])
+    dado.clear()
+
+for p in galera:
+    if p[1] >= 20:
+        totmaior += 1
+    elif p[1] < 20:
+        totmenor += 1
+print(f'Temos {totmaior} pessoas maior de idade e {totmenor} pessoas menores de idade')
+
 
